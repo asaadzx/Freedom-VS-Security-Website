@@ -17,7 +17,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe elements for animation
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('.problem-card, .goal-card, .question-category');
+    const animatedElements = document.querySelectorAll('.problem-card, .goal-card, .question-category, .team-member, .social-item');
     
     animatedElements.forEach(el => {
         el.style.opacity = '0';
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Simple hover effects for cards
-document.querySelectorAll('.problem-card, .goal-card').forEach(card => {
+document.querySelectorAll('.problem-card, .goal-card, .team-member, .social-item').forEach(card => {
     card.addEventListener('mouseenter', () => {
         card.style.transform = 'translateY(-5px)';
     });

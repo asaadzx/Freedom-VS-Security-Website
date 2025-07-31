@@ -1,16 +1,14 @@
 # Freedom vs Security Campaign Website 🕊️🛡️
 
-A modern, responsive website for the Freedom vs Security campaign that explores the delicate balance between individual liberties and collective safety.
+A simple, single-page website for the Freedom vs Security campaign that explores the delicate balance between individual liberties and collective safety.
 
 ## 🌟 Features
 
+- **Single Page Design**: Clean, scrollable layout with no navigation
 - **Modern Design**: Beautiful gradient backgrounds and smooth animations
 - **Responsive Layout**: Works perfectly on desktop, tablet, and mobile devices
-- **Interactive Elements**: Hover effects, smooth scrolling, and engaging animations
 - **Emoji Integration**: Uses emojis throughout to make the content more engaging
-- **Problem-Solution Focus**: Clearly presents the campaign's mission and goals
-- **Contact Form**: Interactive contact form with validation
-- **Mobile Navigation**: Hamburger menu for mobile devices
+- **Information Focus**: Clearly presents the campaign's mission and key questions
 
 ## 📱 Sections
 
@@ -18,7 +16,7 @@ A modern, responsive website for the Freedom vs Security campaign that explores 
 2. **About Section**: Explains the problem the campaign is solving
 3. **Questions Section**: Key questions about Freedom vs Security
 4. **Campaign Goals**: Four main objectives with emoji icons
-5. **Contact Section**: Contact information and form
+5. **Simple Footer**: Basic copyright information
 
 ## 🎨 Design Elements
 
@@ -40,7 +38,7 @@ A modern, responsive website for the Freedom vs Security campaign that explores 
 Freedom-VS-Security-Website/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles and animations
-├── script.js           # JavaScript functionality
+├── script.js           # Basic JavaScript animations
 └── README.md          # This file
 ```
 
@@ -48,13 +46,16 @@ Freedom-VS-Security-Website/
 
 - **HTML5**: Semantic markup
 - **CSS3**: Modern styling with gradients and animations
-- **JavaScript**: Interactive functionality and smooth scrolling
-- **Font Awesome**: Social media icons
+- **JavaScript**: Basic animations and visual effects
 - **Google Fonts**: Poppins font family
 
-## 📧 Contact
+## 📋 Content Overview
 
-For questions about the campaign or website, please use the contact form on the website or reach out to the Freedom vs Security Campaign Team.
+The website presents:
+- **The Problem**: Privacy vs surveillance, emergency powers, balancing act
+- **The Questions**: All key questions from the campaign poster
+- **The Goals**: Campaign objectives and community building
+- **Visual Elements**: Animated balance scale and emoji icons
 
 ---
 
