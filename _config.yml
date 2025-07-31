@@ -1,0 +1,25 @@
+# Jekyll configuration for GitHub Pages
+# This tells GitHub Pages this is a static site
+
+# Site settings
+title: "Freedom vs Security Campaign"
+description: "Exploring the balance between individual freedoms and collective security"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - .github
+  - README.md
+  - .gitignore
+
+# Include files
+include:
+  - _config.yml
+  - index.html
+  - styles.css
+  - script.js 

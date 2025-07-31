@@ -31,13 +31,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      
+      - name: Verify files
+        run: |
+          echo "Checking for required files..."
+          ls -la
+          echo "index.html exists: $(test -f index.html && echo 'YES' || echo 'NO')"
+          echo "styles.css exists: $(test -f styles.css && echo 'YES' || echo 'NO')"
+          echo "script.js exists: $(test -f script.js && echo 'YES' || echo 'NO')"
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: '.'
+      
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
